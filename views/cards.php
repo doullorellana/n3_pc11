@@ -47,22 +47,20 @@
     }
     ?>
 
-    <div class="bg-cardbg max-w-sm rounded-2xl items-center overflow-hidden shadow-lg">
+    <div class="bg-cardbg max-w-md min-w-md rounded-2xl items-center overflow-visible shadow-lg">
 
-        <div class="bg-cardbg px-6 py-4 text-center">
-            <div class="object-center font-bold text-xl mb-2 text-title_color">ADVICE # <?php echo $id ?></div>
+        <div class="bg-cardbg px-10 py-10 mb-24 w-100 h-100 md:mb-0 text-center">
+            <div class="object-center text-sm mb-2 text-title_color">ADVICE # <?php echo $id ?></div>
             <div>
-                <p class="object-center text-base text-content_color"><?php echo '"'. $content .'"' ?></p>
+                <p class="object-center tracking-wide text-3xl mb-10 text-content_color"><?php echo '"' . $content . '"' ?></p>
             </div>
-            <div class="object-center  text-base">
-                <p>----------</p>
-            </div>
-        </div>
-        <div class="object-center f">
-            <img class="mx-auto m-5 object-cover object-center rounded" src="../img/random.svg" alt="Icono Random">
-            <img class="mx-auto m-5 object-cover object-center rounded" src="../img/circle.svg" alt="Icono Circle">
-        </div>
+            <div class="object-center border border-gray-600 p-0"></div>
 
+        </div>
+        <div class="justify-center">
+            <img class="absolute inset-x-0 bottom-45 h-14 mx-auto justify-center mt-1" src="../img/random.svg" alt="Icono Random">
+            <img class="mx-auto mb-8" src="../img/circle.svg" alt="Icono Circle">
+        </div>
     </div>
 
 
